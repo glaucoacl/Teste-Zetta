@@ -1,0 +1,181 @@
+{
+  "id": "f075adcf-135f-44e5-940c-54c8ac20e987",
+  "version": "2.0",
+  "name": "Cadastro",
+  "url": "http://gerir.teste.ti.lemaf.ufla.br",
+  "tests": [{
+    "id": "1170a183-c084-4233-b26e-ff71922fa1af",
+    "name": "Cadastro",
+    "commands": [{
+      "id": "d86419dc-6f40-4230-9b20-732b6e09755a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c7a3c62-34b0-4b0a-a18c-70a6aa9b3d7a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45fe91c6-519a-4afc-8972-d521ce81f339",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CADASTRAR",
+      "targets": [
+        ["linkText=CADASTRAR", "linkText"],
+        ["css=.link-cadastrar", "css:finder"],
+        ["xpath=//a[contains(text(),'CADASTRAR')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#/cadastro')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CADASTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a1995d0-124f-4687-976b-d6a4e7918545",
+      "comment": "",
+      "command": "click",
+      "target": "name=cpf",
+      "targets": [
+        ["name=cpf", "name"],
+        ["css=.input-cpf", "css:finder"],
+        ["xpath=//input[@name='cpf']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99e19b7f-f401-4c6e-ac87-9e86b71783af",
+      "comment": "",
+      "command": "type",
+      "target": "name=cpf",
+      "targets": [
+        ["name=cpf", "name"],
+        ["css=.input-cpf", "css:finder"],
+        ["xpath=//input[@name='cpf']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "546.975.730-72"
+    }, {
+      "id": "69cd5f5d-b6aa-44b8-9f07-9ee4cdd0be4c",
+      "comment": "",
+      "command": "click",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.input-nome", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c58c745b-d104-428a-a4ad-caff647509c9",
+      "comment": "",
+      "command": "type",
+      "target": "name=nome",
+      "targets": [
+        ["name=nome", "name"],
+        ["css=.input-nome", "css:finder"],
+        ["xpath=//input[@name='nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Glauco Teste"
+    }, {
+      "id": "b954de5f-1d58-4d78-8f0c-b116aa20d2db",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-email", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b59f1f48-512f-4581-a08c-a6c61597c445",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-email", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "testeglauco20@gmail.com"
+    }, {
+      "id": "3e967639-eeda-4abc-b438-5c20a10d7b5a",
+      "comment": "",
+      "command": "click",
+      "target": "name=senha",
+      "targets": [
+        ["name=senha", "name"],
+        ["css=.input-senha", "css:finder"],
+        ["xpath=//input[@name='senha']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ba8e351-419f-4a77-bb67-bd5c6d46a94d",
+      "comment": "",
+      "command": "type",
+      "target": "name=senha",
+      "targets": [
+        ["name=senha", "name"],
+        ["css=.input-senha", "css:finder"],
+        ["xpath=//input[@name='senha']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "91698199"
+    }, {
+      "id": "b515511e-0e34-4de8-8375-da38cdc0e645",
+      "comment": "",
+      "command": "click",
+      "target": "name=confirmar",
+      "targets": [
+        ["name=confirmar", "name"],
+        ["css=.input-confirmar", "css:finder"],
+        ["xpath=//input[@name='confirmar']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b894add5-4643-4fd7-a470-2a77f57e962e",
+      "comment": "",
+      "command": "type",
+      "target": "name=confirmar",
+      "targets": [
+        ["name=confirmar", "name"],
+        ["css=.input-confirmar", "css:finder"],
+        ["xpath=//input[@name='confirmar']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "91698199"
+    }, {
+      "id": "3792808d-107f-4c13-ba9f-60bb83dfcbeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-cadastrar",
+      "targets": [
+        ["css=.input-cadastrar", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'CADASTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "833fc205-8763-41a3-b937-80947dc9acae",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1170a183-c084-4233-b26e-ff71922fa1af"]
+  }],
+  "urls": ["http://gerir.teste.ti.lemaf.ufla.br/"],
+  "plugins": []
+}

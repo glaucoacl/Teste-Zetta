@@ -1,0 +1,115 @@
+{
+  "id": "50287496-8542-4779-b379-2486c5ec77ab",
+  "version": "2.0",
+  "name": "Login no sistema",
+  "url": "http://gerir.teste.ti.lemaf.ufla.br",
+  "tests": [{
+    "id": "2d0d13d0-5970-46b4-bb24-2ea7d72a2820",
+    "name": "Untitled",
+    "commands": [{
+      "id": "b2358810-ac87-48ad-aef8-d21d6dea1e64",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64c2705c-7981-46a2-b751-e33f632bc5df",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x826",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11488dce-3dd7-4267-989a-4761a0e3dff5",
+      "comment": "",
+      "command": "click",
+      "target": "name=cpf",
+      "targets": [
+        ["name=cpf", "name"],
+        ["css=.form-input-cpf", "css:finder"],
+        ["xpath=//input[@name='cpf']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cef60bd2-526d-4abe-b744-93089bb25b65",
+      "comment": "",
+      "command": "type",
+      "target": "name=cpf",
+      "targets": [
+        ["name=cpf", "name"],
+        ["css=.form-input-cpf", "css:finder"],
+        ["xpath=//input[@name='cpf']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "043.688.826-28"
+    }, {
+      "id": "2f38595e-ec6a-4d18-bca7-65003cebb5a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.conteudo-inicio-box:nth-child(1)",
+      "targets": [
+        ["css=.conteudo-inicio-box:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "031e42bc-737a-465c-bb25-85f38d5dd966",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-input-senha", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "908126da-d44c-43d3-8b09-b5bf8793fc52",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-input-senha", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "Gl91698199"
+    }, {
+      "id": "3a866a0b-0779-47d5-bde4-3525202c2a28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.conteudo-inicio-box:nth-child(1)",
+      "targets": [
+        ["css=.conteudo-inicio-box:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "029895d1-8a44-4e6f-95af-29c48eabd5cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-entrar",
+      "targets": [
+        ["css=.input-entrar", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ENTRAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1938f084-79d8-4bfa-adf2-77c2fcda932a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2d0d13d0-5970-46b4-bb24-2ea7d72a2820"]
+  }],
+  "urls": ["http://gerir.teste.ti.lemaf.ufla.br/"],
+  "plugins": []
+}
